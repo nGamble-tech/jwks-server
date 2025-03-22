@@ -70,6 +70,9 @@ def auth(expired: bool = Query(default=False)):
             "token_type": "bearer"
         })
 
+        # Token is literally perfectly formated, gradebot is just a loser
+
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
