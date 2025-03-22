@@ -1,1 +1,13 @@
 /target
+
+.idea/
+
+.pytest_cache/
+
+venv/
+
+src/
+
+gradebot.exe
+
+LICENSE
