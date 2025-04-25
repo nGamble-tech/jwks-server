@@ -1,13 +1,19 @@
-/target
+target/
 
 .idea/
+
+__pycache__/
 
 .pytest_cache/
 
 venv/
 
-src/
-
 gradebot.exe
 
 LICENSE
+
+.coverage
+
+.env
+
+*.pyc
